@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ChooseItems from './ChooseItems';
-import './Room.css';
+import './room.css';
 
 const directions = {
   n: 'North',

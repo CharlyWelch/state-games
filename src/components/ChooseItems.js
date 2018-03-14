@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './ChooseItems.css';
+import './chooseItems.css';
 
 
 

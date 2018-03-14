@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ChooseItems from './ChooseItems';
-import './Player.css';
+import './player.css';
 
 export default class Player extends Component {
 

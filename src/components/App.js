@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './app.css';
 import { rooms, start } from './rooms';
 import Player from './Player';
 import Room from './Room';
@@ -59,7 +59,7 @@ export default class App extends Component {
     const { player, room, action } = this.state;
     return (
       <div>
-        <header>
+        <header className="header">
           <h1>Museum of Museums</h1>
         </header>
         <div className="player-head">
