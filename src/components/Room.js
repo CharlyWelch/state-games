@@ -16,7 +16,7 @@ export default class Room extends Component {
 
     return (
       <div>
-        <h2>{title}</h2>
+        <h2 id="room-name">{title}</h2>
         <div className="room" style={{ backgroundImage: `url(${image})` }}>
           {items.length > 0 && <h3>In this room:</h3>}
           <ChooseItems items={items} onItem={onItem}/>
